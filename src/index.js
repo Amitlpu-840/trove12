@@ -3,11 +3,28 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './components/Home';
+import About from './components/About';
+import Team from './components/Team';
+import Resources from './components/Resources';
+// import Subjects from './components/Subjects';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<App />}>
+          <Route index element={<Home/>} />
+          <Route path="About" element={<About />} />
+          <Route path="trove12" element={<Home />} />
+          <Route path="Team" element={<Team />} />
+          <Route path="Resources" element={<Resources />} />
+          {/* <Route path="Subjects" element={<Subjects />} /> */}
+        </Route>
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
