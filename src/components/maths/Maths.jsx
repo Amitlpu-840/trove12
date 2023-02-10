@@ -5,7 +5,7 @@ import 'react-super-responsive-table/dist/SuperResponsiveTableStyle.css';
 
 
 
-const maths = () => {
+const Maths = () => {
   return (
    <div>
 <div className='navbar'>
@@ -67,4 +67,4 @@ const maths = () => {
   )
 }
 
-export default maths
+export default Maths

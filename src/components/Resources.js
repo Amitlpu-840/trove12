@@ -10,18 +10,9 @@ function Resources() {
   return (
     <div style={{ display: "flex", flexWrap: "wrap" }} >
       {Cards.map(card => (
-<<<<<<< HEAD
         
-        <div class="blog" key={card.id}  >
-          {/* <div  ><img src={card.img}/></div> */}
-          <div class="title-box">
-=======
-        // <button onClick={console.log(card.id)}>
         <Link to={card.subject}><div className="blog" key={card.id}   >
-          {/* <img src={card.img} /> */}
-          {/* <div onClick={console.log(card.id)}> */}
           <div className="title-box" >
->>>>>>> c522f39a15ec5f2cfca93567bdd6d77b6b4188bc
             <h3>
               {card.subject}
             </h3>
@@ -33,9 +24,7 @@ function Resources() {
           <div className="info">
             <span>{card.desc}</span>
           </div>
-          <div class="button">
-            <span>{card.button}</span>
-          </div>
+          
           {/* <div class="footer">
               <div class="icon-holder">
                 <span>
