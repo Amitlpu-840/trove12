@@ -8,6 +8,10 @@ import Home from './components/Home';
 import About from './components/About';
 import Team from './components/Team';
 import Resources from './components/Resources';
+// import Physics from './components/Physics-material/Physics';
+// import Chemistry from './components/Physics-material/Chemistry';
+// import Biology from './components/Physics-material/Biology';
+// import Maths from './components/Physics-material/Maths';
 // import Subjects from './components/Subjects';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,12 +20,15 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />}>
-          <Route index element={<Home/>} />
+          <Route index element={<Home />} />
           <Route path="About" element={<About />} />
           <Route path="trove12" element={<Home />} />
           <Route path="Team" element={<Team />} />
           <Route path="Resources" element={<Resources />} />
-          {/* <Route path="Subjects" element={<Subjects />} /> */}
+          {/* <Route path="/Resources/Physics" element={<Physics />} />
+          <Route path="/Resources/Chemistry" element={<Chemistry />} />
+          <Route path="/Resources/Biology" element={<Biology />} />
+          <Route path="/Resources/Maths" element={<Maths />} /> */}
         </Route>
       </Routes>
     </BrowserRouter>
