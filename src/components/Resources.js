@@ -1,11 +1,15 @@
 import React from 'react'
 import Cards from './Cards'
+import {Routes, Route, useNavigate} from 'react-router-dom';
+
 // import cardImg1 from '../assets/card_Img/physics.jpg'
 
 function Resources() {
+  
   return (
     <div style={{ display: "flex" }}>
       {Cards.map(card => (
+        
         <div class="blog" key={card.id}  >
           {/* <div  ><img src={card.img}/></div> */}
           <div class="title-box">
@@ -19,6 +23,9 @@ function Resources() {
           </div>
           <div class="info">
             <span>{card.desc}</span>
+          </div>
+          <div class="button">
+            <span>{card.button}</span>
           </div>
           {/* <div class="footer">
               <div class="icon-holder">

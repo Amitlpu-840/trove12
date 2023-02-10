@@ -9,11 +9,14 @@ import About from './components/About';
 import Team from './components/Team';
 import Resources from './components/Resources';
 // import Subjects from './components/Subjects';
+//import Physics from './components/physics/Physics';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+    
       <Routes>
         <Route path="/" element={<App />}>
           <Route index element={<Home/>} />
@@ -21,9 +24,11 @@ root.render(
           <Route path="trove12" element={<Home />} />
           <Route path="Team" element={<Team />} />
           <Route path="Resources" element={<Resources />} />
+         
           {/* <Route path="Subjects" element={<Subjects />} /> */}
         </Route>
       </Routes>
+   
     </BrowserRouter>
   </React.StrictMode>
 );

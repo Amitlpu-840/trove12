@@ -1,0 +1,23 @@
+.navbar{
+    width: 100%;
+    height: 90px;
+    text-align: center;
+}
+
+.heading{
+    padding: 8px;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+
+}
+
+.table1{
+    width: 60%;
+    height: 600px;
+    background-color: White;
+    margin-left: 16px;
+}
+table, th, td {
+    border: 1px solid black;
+  }
