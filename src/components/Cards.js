@@ -5,7 +5,7 @@ const Cards = [
         title: "let's study physics",
         desc: "Study with a arranged material of Physics including notes, pdf, videos",
         // url: "../assests/card_img/physics.jpg"
-        // img: URL("https://www.environmentalscience.org/wp-content/uploads/2018/08/physics-640x416.jpg")
+        img: "https://www.environmentalscience.org/wp-content/uploads/2018/08/physics-640x416.jpg"
     },
     {
         id: 2,

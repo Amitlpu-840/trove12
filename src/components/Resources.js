@@ -1,23 +1,26 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Cards from './Cards'
 // import cardImg1 from '../assets/card_Img/physics.jpg'
 
 function Resources() {
   return (
-    <div style={{ display: "flex" }}>
+    <div style={{ display: "flex", flexWrap: "wrap" }} >
       {Cards.map(card => (
-        <div class="blog" key={card.id}  >
-          {/* <div  ><img src={card.img}/></div> */}
-          <div class="title-box">
+        // <button onClick={console.log(card.id)}>
+        <Link to={card.subject}><div className="blog" key={card.id}   >
+          {/* <img src={card.img} /> */}
+          {/* <div onClick={console.log(card.id)}> */}
+          <div className="title-box" >
             <h3>
               {card.subject}
             </h3>
             <hr />
-            <div class="intro">
+            <div className="intro">
               {card.title}
             </div>
           </div>
-          <div class="info">
+          <div className="info">
             <span>{card.desc}</span>
           </div>
           {/* <div class="footer">
@@ -32,8 +35,11 @@ function Resources() {
               </div>
             </div> */}
 
-          <div class="color-overlay"></div>
+          <div className="color-overlay"></div>
         </div>
+        </Link>
+
+
       ))}
     </div>
   )
