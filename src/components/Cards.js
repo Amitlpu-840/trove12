@@ -32,7 +32,7 @@ const Cards = [
         button: <button style={mystyle} component={Link} to="/Physics">Click Here!</button>
       
         // url: "../assests/card_img/physics.jpg"
-        // img: URL("https://www.environmentalscience.org/wp-content/uploads/2018/08/physics-640x416.jpg")
+        img: "https://www.environmentalscience.org/wp-content/uploads/2018/08/physics-640x416.jpg"
     },
     {
         id: 2,

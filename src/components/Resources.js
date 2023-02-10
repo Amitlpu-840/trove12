@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Cards from './Cards'
 import {Routes, Route, useNavigate} from 'react-router-dom';
 
@@ -7,21 +8,29 @@ import {Routes, Route, useNavigate} from 'react-router-dom';
 function Resources() {
   
   return (
-    <div style={{ display: "flex" }}>
+    <div style={{ display: "flex", flexWrap: "wrap" }} >
       {Cards.map(card => (
+<<<<<<< HEAD
         
         <div class="blog" key={card.id}  >
           {/* <div  ><img src={card.img}/></div> */}
           <div class="title-box">
+=======
+        // <button onClick={console.log(card.id)}>
+        <Link to={card.subject}><div className="blog" key={card.id}   >
+          {/* <img src={card.img} /> */}
+          {/* <div onClick={console.log(card.id)}> */}
+          <div className="title-box" >
+>>>>>>> c522f39a15ec5f2cfca93567bdd6d77b6b4188bc
             <h3>
               {card.subject}
             </h3>
             <hr />
-            <div class="intro">
+            <div className="intro">
               {card.title}
             </div>
           </div>
-          <div class="info">
+          <div className="info">
             <span>{card.desc}</span>
           </div>
           <div class="button">
@@ -39,8 +48,11 @@ function Resources() {
               </div>
             </div> */}
 
-          <div class="color-overlay"></div>
+          <div className="color-overlay"></div>
         </div>
+        </Link>
+
+
       ))}
     </div>
   )
