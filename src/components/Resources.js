@@ -8,7 +8,7 @@ import {Routes, Route, useNavigate} from 'react-router-dom';
 function Resources() {
   
   return (
-    <div style={{ display: "flex", flexWrap: "wrap" }} >
+    <div style={{ display: "flex", flexWrap: "wrap", justifyContent:"space-between" }} >
       {Cards.map(card => (
         
         <Link to={card.subject}><div className="blog" key={card.id}   >
