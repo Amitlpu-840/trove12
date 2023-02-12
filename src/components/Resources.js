@@ -8,7 +8,11 @@ import { Routes, Route, useNavigate } from 'react-router-dom';
 function Resources() {
 
   return (
+<<<<<<< HEAD
     <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between" }} >
+=======
+    <div style={{ display: "flex", flexWrap: "wrap", justifyContent:"space-between" }} >
+>>>>>>> e08b87e632812de0e0456c90f949f3232ac74f54
       {Cards.map(card => (
 
         <Link to={card.subject}><div className="blog" key={card.id}   >

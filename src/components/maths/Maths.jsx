@@ -2,68 +2,99 @@ import React from 'react'
 import './maths.css'
 import { Table, Thead, Tbody, Tr, Th, Td } from 'react-super-responsive-table'
 import 'react-super-responsive-table/dist/SuperResponsiveTableStyle.css';
+import img from '../../assets/mathsImg.jpg';
 
 
 
 const Maths = () => {
   return (
-   <div>
-<div className='navbar'>
+    <div>
+     
     <div className='heading'>
-        Let's study Maths...
+     Let's study Maths...
     </div>
 
-    </div>
-<div className='table1'>
-     <Table>
-    <Thead>
+ <div className='tableMath' style={{overflowX: "auto"}}>
+  <Table>
+   <Thead>
+   <Tr>
+     <Th className="tbheadings">Chapters</Th>
+     <Th className="tbheadings">Name</Th>
+     <Th className="tbheadings">Unit</Th>
+   </Tr>
+ </Thead>
+ <Tbody>
       <Tr>
-        <Th>Chapters</Th>
-        <Th>Name</Th>
-        <Th>Marks</Th>
-      </Tr>
-    </Thead>
-    <Tbody>
-      <Tr>
-        <Td>1</Td>
-        <Td>Relations and Functions</Td>
-        <Td>8</Td>
-      </Tr>
-      <Tr>
-        <Td>2</Td>
-        <Td>Algebra</Td>
-        <Td>10</Td>
+        <Td className='m'>Chapter 1</Td>
+        <Td className='m'>Relations and Functions</Td>
+        <th rowSpan="2">Relations and Functions</th>
       </Tr>
       <Tr>
-        <Td>3</Td>
-        <Td> Calculus</Td>
-        <Td> 7</Td>
+        <Td className='m'>Chapter 2</Td>
+        <Td className='m'>Inverse Trigonometric Functions</Td>
       </Tr>
       <Tr>
-        <Td>4</Td>
-        <Td> Vectors and Three – Dimensional Geometry</Td>
-        <Td> 14</Td>
+        <Td className='m'>Chapter 3</Td>
+        <Td className='m'>Matrices</Td>
+        <th rowSpan="2">Algebra</th>
       </Tr>
       <Tr>
-        <Td>5</Td>
-        <Td> Linear Programming</Td>
-        <Td> 5</Td>
+        <Td className='m'>Chapter 4</Td>
+        <Td className='m'> Determinants</Td>
       </Tr>
       <Tr>
-        <Td>6</Td>
-        <Td> Probablity</Td>
-        <Td> 8</Td>
+        <Td className='m'>Chapter 5</Td>
+        <Td className='m'> Continuity and Differentiability</Td>
+        <th rowSpan="5">Calculus</th>
+      </Tr>
+      <Tr>
+        <Td className='m'>Chapter 6</Td>
+        <Td className='m'> Applications of Derivatives</Td>
+      </Tr>
+      <Tr>
+        <Td className='m'>Chapter 7</Td>
+        <Td className='m'>Integrals</Td>
+      </Tr>
+      <Tr>
+        <Td className='m'>Chapter 8</Td>
+        <Td className='m'>Applications of the Integrals</Td>
+      </Tr>
+      <Tr>
+        <Td className='m'>Chapter 9</Td>
+        <Td className='m'>Differential Equations</Td>
+      </Tr>
+      <Tr>
+        <Td className='m'>Chapter 10</Td>
+        <Td className='m'>Vectors Algebra</Td>
+        <th rowSpan="2">Vectors and Three-Dimensional Geometry</th>
+      </Tr>
+      <Tr>
+        <Td className='m'>Chapter 11</Td>
+        <Td className='m'>Three - dimensional Geometry</Td>
+      </Tr>
+      <Tr>
+        <Td className='m'>Chapter 12</Td>
+        <Td className='m'>Linear Programming</Td>
+        <th rowSpan="1">Linear Programming</th>
+      </Tr>
+
+      <Tr>
+        <Td className='m'>Chapter 13</Td>
+        <Td className='m'> Probability</Td>
+        <th rowSpan="1"> Probability</th>
       </Tr>
       
+
+
       
-    </Tbody>
-  </Table> 
-  
+      
+     
+      </Tbody>
+  </Table>
+  </div>
+     <img className='mthImg' src={img} alt="About Icon" />
   </div> 
-  <div className='resources'>
-
-  </div>
-  </div>
+  
   )
 }
 
