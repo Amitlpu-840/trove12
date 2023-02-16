@@ -381,7 +381,7 @@ footer h2
   width: 22em;
   height: 30em;
   
-  /* background: url(./assets/card_Img/physics.jpg) no-repeat; */
+   /* background: url(./assets/card_Img/physics.jpg) no-repeat;  */
   /* background: #0b639d; */
 
   background-size: 22em 30em;
@@ -498,6 +498,24 @@ space{
   display: inline-block;
   width: 0.6em;
   height: 1em;
+}
+#phyImg{
+    background: url(./assets/card_Img/physics.jpg) no-repeat;
+    background-size: cover;
+    /* -webkit-filter: blur(5px); */
+}
+
+#chemImg{
+    background: url(./assets/chemImg.jpg) no-repeat;
+    background-size: cover;
+}
+#bioImg{
+    background: url(./assets/bioImg.jpg) no-repeat;
+    background-size: cover;
+}
+#mathsImg{
+    background: url(./assets/mathsImg.jpg) ;
+    background-size: cover;
 }
 
 /* css for card ends */
