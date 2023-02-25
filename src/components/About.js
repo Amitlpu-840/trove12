@@ -7,9 +7,9 @@ function About() {
         <div className="title">
           <h1 className="first"> About Us</h1>
         </div>
-        <div className="image-section">
+        {/* <div className="image-section">
           <img src="https://i.pinimg.com/originals/c9/12/d4/c912d49f5f63e3c25aae2465f7577e7a.png" alt="LPU logo" />
-        </div>
+        </div> */}
         <div className="content">
           <h3>An Educational Initiative</h3>
           <p>
