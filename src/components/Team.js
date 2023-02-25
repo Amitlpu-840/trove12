@@ -11,13 +11,13 @@ function Team() {
           <p class="card__name_team">{mem.Name}</p>
           <div class="grid-container_team">
 
-            <div class="grid-child-posts">
-              156 Post
+            <div class="grid-child-posts" >
+              {mem.reg}
             </div>
 
-            <div class="grid-child-followers">
+            {/* <div class="grid-child-followers">
               1012 Likes
-            </div>
+            </div> */}
 
           </div>
           <ul class="social-icons">

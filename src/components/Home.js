@@ -16,7 +16,7 @@ function Home() {
         <section className="homepage-2">
         <h1 className="title-2">What is Trove12 ?</h1>
         <p className="para-2">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi quisquam facilis harum unde debitis recusandae, at provident corporis ullam laudantium ea voluptatum quidem non fugiat, nostrum animi nesciunt ut repellat blanditiis. Odio commodi blanditiis placeat voluptates praesentium! Iusto, provident non!
+        Trove12 is a comprehensive online learning platform that provides free access to a wide range of study material for class 12th students. Trove12 offers a vast collection of educational resources,revision notes, and link to resources. The website also features a user-friendly interface that enables students to access these study materials easily.
         </p>
       </section>
       </div>
