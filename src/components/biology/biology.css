@@ -13,7 +13,7 @@
 .table1{
     display: inline-block;
     width: 60%;
-    height: 500px;
+    height: 510px;
     margin-left: 35px;
     background-color: #8ecae6;
     color: black;
@@ -30,7 +30,7 @@ table, th, td {
 
 
 a:link, a:visited {
-    color: black;
+    /* color: rgb(243, 215, 215); */
     text-decoration: none;
     cursor: pointer;
   }
