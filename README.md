@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ![image](https://user-images.githubusercontent.com/77196415/227114162-22325a05-43f8-41b1-8db7-a2a23be42d8f.png)
 
+## website is live on th link
+https://trove12.netlify.app/
 
 ## Available Scripts
 
